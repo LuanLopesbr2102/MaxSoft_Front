@@ -1,0 +1,48 @@
+body {
+      background-image: url("imagens/fundobiblioteca.jpg");
+      background-size: cover; /* Ajusta o tamanho para cobrir a tela */
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Mantém a imagem fixa */
+    }
+    
+
+    .login-container {
+      max-width: 400px;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      color: white;
+      padding: 20px;
+      border: 1px solid #ddd;
+      background-color: rgba(0, 0, 0, 0.7); /* Cor preta com transparência */
+      margin-top: 100px;
+      border-radius: 5px;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .validation-icon {
+      position: absolute;
+      right: 10px;
+      top: calc(50% - 9px); /* Ajusta a posição verticalmente */
+    }
+
+    .validation-icon i {
+      font-size: 18px;
+    }
+
+    .validation-message {
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .validation-message.error {
+      color: red;
+    }
+
+    .validation-message.success {
+      color: green;
+    }
